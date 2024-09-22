@@ -49,7 +49,15 @@ public class GameManager : MonoBehaviour
 
     public void IncraseValie(float Multiplier)
     {
-        uwus++;
+        if (Multiplier == 1)
+        {
+            uwus++;
+        }
+        else
+        {
+            uwus += 1 * Multiplier;
+        }
+
 
     }
     public double ReturnUwus()

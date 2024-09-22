@@ -7,7 +7,9 @@ using UnityEngine;
 public class Upgrade : ScriptableObject
 {
     public string Name;
-    public string Description; 
+    public string Description;
+    public int Price;
+
     public UpgradeType.type upgradeType;
     public int Lvl;
     public float multiplier;

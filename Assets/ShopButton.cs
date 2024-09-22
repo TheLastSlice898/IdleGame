@@ -7,9 +7,7 @@ using UnityEngine.UI;
 [System.Serializable]
 public class ShopButtonColors
 {
-    #region
-    [Header("Colours For Afford")]
-    #endregion
+    [Header("Colours for Can Afford")]
     public ColorBlock Afford = ColorBlock.defaultColorBlock;
     [Header("Colours for Cant Afford")]
     public ColorBlock CantAfford = ColorBlock.defaultColorBlock;
@@ -23,6 +21,9 @@ public class ShopButton : MonoBehaviour
 
     public ShopButtonColors ShopColours;
 
+    public Upgrade _currentUpgrade;
+
+
     public bool canAfford;
     public int Price;
 
@@ -31,7 +32,7 @@ public class ShopButton : MonoBehaviour
     void Start()
     {
         _b = GetComponentInChildren<Button>();
-        
+        Price = _currentUpgrade.Price;
         
     }
 

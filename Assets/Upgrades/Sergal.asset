@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b89a59051413956428ef01a4962c3b73, type: 3}
   m_Name: Sergal
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
-  multiplier: 0
+  Name: 'Sergal '
+  Description: Im a fuckiing rasist
+  Price: 20
+  upgradeType: 0
+  Lvl: 99
+  multiplier: 69

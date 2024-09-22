@@ -11,16 +11,35 @@ public class UpgradeManager : MonoBehaviour
     public int TotalUpgrades;
     public float TotalMutliplier;
 
+    private static UpgradeManager _UManager;
+
+    public static UpgradeManager UManager { get { return _UManager; } }
+
+    private void Awake()
+    {
+        if (_UManager != null && _UManager != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            _UManager = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
 
     }
     public void NewUpgrade(Upgrade newupgrade, UpgradeType type)
