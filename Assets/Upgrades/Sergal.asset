@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Sergal
   m_EditorClassIdentifier: 
   Name: 'Sergal '
-  Description: Im a fuckiing rasist
+  Description: Im a fuckiing rasist.
   Price: 20
-  upgradeType: 0
-  Lvl: 99
-  multiplier: 69
+  image: {fileID: 21300000, guid: cbbade8610fb4fa4291902cd6b967842, type: 3}
+  Lvl: 1
+  multiplier: 1.1

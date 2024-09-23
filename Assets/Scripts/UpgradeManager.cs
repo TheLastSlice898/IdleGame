@@ -42,7 +42,7 @@ public class UpgradeManager : MonoBehaviour
 
 
     }
-    public void NewUpgrade(Upgrade newupgrade, UpgradeType type)
+    public void NewUpgrade(Upgrade newupgrade)
     {
         TotalUpgrades++;
 

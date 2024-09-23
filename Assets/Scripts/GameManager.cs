@@ -37,27 +37,14 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Value.Invoke();
-            IncraseValie(1f);
-        }
-
 
     }
 
 
-    public void IncraseValie(float Multiplier)
+    public void IncraseValie()
     {
-        if (Multiplier == 1)
-        {
-            uwus++;
-        }
-        else
-        {
-            uwus += 1 * Multiplier;
-        }
-
+        uwus += 1 * UpgradeManager.UManager.TotalMutliplier;
+        Value.Invoke();
 
     }
     public double ReturnUwus()

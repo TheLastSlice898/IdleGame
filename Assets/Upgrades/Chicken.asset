@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b89a59051413956428ef01a4962c3b73, type: 3}
-  m_Name: FuzzyButt
+  m_Name: Chicken
   m_EditorClassIdentifier: 
-  Name: Fuzz
-  Description: I JUST WANT TO BE FLUFFY!
-  Price: 200
-  image: {fileID: 21300000, guid: 432b3553b89342043b150db05a723d55, type: 3}
+  Name: Chicken
+  Description: Buck Buck mfer
+  Price: 10
+  image: {fileID: 178193894, guid: bfd3b1a258a953d468da69910360102b, type: 3}
   Lvl: 1
   multiplier: 0

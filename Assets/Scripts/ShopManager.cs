@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpgradeScript : MonoBehaviour
+public class ShopManager : MonoBehaviour
 {
-    public Upgrade CurrentUpgrade;
+    public List<UpgradeButton> ShopItems;
+
+    
     // Start is called before the first frame update
     void Start()
     {
+
         
     }
 
@@ -15,5 +18,10 @@ public class UpgradeScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void PurchaseShopItem(Upgrade upgrade)
+    {
+
     }
 }

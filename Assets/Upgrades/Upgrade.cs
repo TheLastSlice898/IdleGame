@@ -9,8 +9,8 @@ public class Upgrade : ScriptableObject
     public string Name;
     public string Description;
     public int Price;
-
-    public UpgradeType.type upgradeType;
+    
+    public Sprite image;
     public int Lvl;
     public float multiplier;
 
@@ -26,8 +26,4 @@ public class Upgrade : ScriptableObject
     {
         
     }
-}
-public class UpgradeType 
-{
-    public enum type {Classic,boost}
 }
